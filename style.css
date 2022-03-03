@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+}
+body {
+  background: #8dc6ff;
+}
+ul {
+  list-style: none;
+}
+.container {
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
+  background-repeat: no-repeat;
+
+  font-family: "Supermercado One", cursive;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: #1c4b82;
+  box-shadow: rgb(37 39 89/10%) 0px 8px 8px 0;
+  border-radius: 10px;
+}
