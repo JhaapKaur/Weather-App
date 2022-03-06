@@ -23,19 +23,6 @@ function formatDate(date) {
   let day = days[dayIndex];
   return `${day} ${hours}:${minutes}`;
 }
-function changeToCelsius(click) {
-  let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = `3`;
-}
-function changeToFahrenheit(click) {
-  let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = `37`;
-}
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", changeToCelsius);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", changeToFahrenheit);
 
 function handleSubmit(event) {
   event.preventDefault();
